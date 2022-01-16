@@ -1,7 +1,10 @@
 package com.gft.treinamento.services;
 
+import org.springframework.stereotype.Service;
+
 import com.gft.treinamento.entities.Person;
 
+@Service
 public class PersonService {
 	
 	public Person createPerson() {
